@@ -2,3 +2,78 @@
     margin: 0;
     padding: 0;
 }
+/* ---------------
+google fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200&family=Kanit:wght@300&family=Poppins:wght@600&family=Roboto+Slab&family=Trispace:wght@300&display=swap');
+
+/* ---------------
+google fonts
+*/
+
+body{
+font-family: 'Arima', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Trispace', sans-serif;
+}
+
+/*------------- 
+hero section start
+ ------------------- */
+
+.hero{
+    background: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin-top:50px;
+    margin-left: 300px;
+    display: flex;
+}
+.hero .text{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 12%;
+    margin-left: 156px;
+    width: 531px;
+    height: 424px;
+}
+.hero .text h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+.hero .text p{
+    margin-top: 25px;
+    
+}
+.hero .text button{
+width: 187px;
+height: 56px;
+
+border: 0px solid #DD0000;
+background: #DD0000;
+border-radius: 5px;
+margin-top: 25px;
+font-weight: 400;
+font-size: 20px;    
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+.fa-greater-than{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image img{
+width: 581px;
+height: 613px;
+margin-top: 30px;
+} 
+
+
+
