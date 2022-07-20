@@ -238,8 +238,8 @@ footer hr{
     .hero{
     display: flex;
     flex-direction: column;
-    width: 94%;
-    margin-left: 11px;
+    width: 338px;
+    margin-left: 10px;
     height: 860px;
     margin-top: 12px;
     }
