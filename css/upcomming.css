@@ -64,6 +64,11 @@ font-family: 'Poppins', sans-serif;
 color: white;
 }
 
+.hero .text button:hover{
+    transform:scale(0.8);
+    cursor: pointer;
+}
+
 .fa-greater-than{
     color: white;
     margin-left: 10px;
