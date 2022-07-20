@@ -171,8 +171,12 @@ hero section end for pc
     padding-right: 15px;
     padding-left: 10px;
 }
-
-
+.view-all{
+    display: none;
+}
+/*----------------------
+blog section end
+--------------- */
 
 
 /*----------------------

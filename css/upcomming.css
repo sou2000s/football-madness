@@ -222,9 +222,9 @@ footer hr{
  ----------------- */
 
 
- /*
-  mobile screen 
- */
+ /*-----------------
+            mobile screen 
+ -------------------------------*/
  
 @media screen and (max-width:576px) {
    
@@ -295,7 +295,7 @@ footer hr{
     .match-list{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 0px;
+        grid-row-gap: 5px;
         margin-left: 2px; 
     }
     
@@ -347,4 +347,85 @@ footer hr{
 
 
     
+}
+
+
+/*---------------------- 
+         tablet screen 
+ ------------------*/
+ 
+
+ @media screen and (max-width:834px) {
+    /* only of tab */
+  .view-all{
+      display: none;
+    }
+
+    /* hero section */
+    .hero{
+      margin-left: 109px;
+      width: 1393px;
+      
+    }
+
+    /* blog section responsive */
+
+    .match-section{
+      flex-direction: column;
+    }
+    .match-section .select-option{
+      background-color: white;
+      flex-direction: row;
+      padding-left: 58%;
+      width: 864px;
+      margin-left: -146px;
+}
+     .select-option button{
+      /* width: 252px;
+      height: 64px; */
+      background: rgb(255, 255, 255);
+      border-radius: 10px;
+      margin-left: 30px;
+      margin-top: 26px;
+      text-align: center;
+      font-size: 25px;
+     }
+
+    
+    
+    
+    .match-list{
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 0px;
+      padding-left: 218px;
+      margin-top: -146px;
+    }
+    /* .blog-7,.blog-8,.blog-9{
+      display: none;
+    } */
+    .match{
+      width: 541px;
+      height: 414.21px;
+      border: 0.5px solid whitesmoke;
+      border-radius: 10px;  
+    }
+    .match .image img{
+      width: 540px;
+    }
+    .match-details{
+      font-size: 25px;
+    }
+
+
+
+    /* footer responsive */
+    footer{
+      overflow-x: hidden;
+      width: 193%;
+    }
+
+    footer hr{
+      margin-left: 162px;
+    }
+
 }
