@@ -20,6 +20,16 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Trispace', sans-serif;
 }
 
+/*----- 
+onlyfor tab
+ --------*/
+.onlyfor-tab{
+    display: none;
+}
+
+
+
+
 /*------------- 
 hero section start for pc
  ------------------- */
@@ -62,7 +72,11 @@ font-size: 20px;
 font-family: 'Poppins', sans-serif;
 color: white;
 }
-
+.hero .text button:hover{
+  transform:scale(0.8);
+  
+  cursor: pointer;
+}
 .fa-greater-than{
     color: white;
     margin-left: 10px;

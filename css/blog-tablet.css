@@ -24,11 +24,16 @@
       }
 
       /* blog section responsive */
+       
+      
+       
 
-      .blogs-tablet{
+      
+       
+       .blogs-tablet{
         flex-direction: column;
-      }
-      .blogs-tablet .select-option{
+      } 
+       .blogs-tablet .select-option{
         background-color: white;
         flex-direction: row;
         padding-left: 58%;
@@ -36,24 +41,25 @@
         margin-left: -146px;
 }
        .select-option button{
-        /* width: 252px;
-        height: 64px; */
+        
         background: rgb(255, 255, 255);
         border-radius: 10px;
         margin-left: 30px;
         margin-top: 26px;
         text-align: center;
         font-size: 25px;
-       }
+       } 
 
       
       
       
       .blogs-list{
         grid-template-columns: repeat(2,1fr);
+        
         margin-top: 0px;
-        padding-left: 218px;
-        margin-top: -146px;
+        padding-left: 216px;
+        margin-top: 38px;
+        text-align: center;
       }
       .blog-7,.blog-8,.blog-9{
         display: none;
