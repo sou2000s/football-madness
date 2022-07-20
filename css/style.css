@@ -230,7 +230,7 @@ footer hr{
   mobile screen 
  */
  
-@media screen and (max-width:576px) {
+@media    (max-width:576px) and (min-width:360px){
    
     *{
         overflow-x: hidden;

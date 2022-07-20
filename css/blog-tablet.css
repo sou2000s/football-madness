@@ -1,4 +1,4 @@
-@media screen and (max-width:834px) {
+@media  (max-width:834px) and (min-width:576px) {
       /* only of tab */
     .view-all{
         display: block;
@@ -17,7 +17,7 @@
     
 
       /* hero section */
-      .hero{
+      .hero-tablet{
         margin-left: 109px;
         width: 1393px;
         
@@ -25,10 +25,10 @@
 
       /* blog section responsive */
 
-      .blogs-section{
+      .blogs-tablet{
         flex-direction: column;
       }
-      .blogs-section .select-option{
+      .blogs-tablet .select-option{
         background-color: white;
         flex-direction: row;
         padding-left: 58%;
