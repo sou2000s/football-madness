@@ -438,3 +438,22 @@ footer hr{
   }
 
  
+
+  /* ---------------
+    animation
+    -------------
+  */
+
+  @keyframes button{
+    from{
+        background-color: #DD0000;
+    }
+    to{
+        background-color: #02B290;
+    }
+}
+
+.text .animation{
+    animation: button 0.8s ease-in-out 0.5s infinite alternate ;
+    animation-play-state: running;
+}
